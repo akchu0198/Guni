@@ -1487,6 +1487,8 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     border: 1px solid #F45201; 
     color: white; 
     border-radius: 10px;
+    margin-top: 20px;
+    font-size: 18px;
 }
 #block1 .container-fluid .row:first-of-type{
     align-items: center;
