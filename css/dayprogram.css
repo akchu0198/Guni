@@ -1032,6 +1032,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 #blue_area img{
     width: 90%;
 }
+#section_3m{
+    padding-top: 40px;
+}
 #section_2 h6{
     font-size: 20px;
     margin: 15px 0px;
@@ -1115,6 +1118,10 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 @media(max-width:1062px){
     #section_1 p{
         font-size: 18px;
+    }
+    #bkgd{
+        min-width: 120%;
+        height: auto;
     }
 }
 @media(max-width:992px){
@@ -1485,7 +1492,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     align-items: center;
 }
 #block1 p{
-    font-size: 20px;
+    font-size: 18px;
 }
 #block2{
     margin: 40px 0px;
@@ -1534,6 +1541,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     margin-left: 450px;
     margin-bottom: 100px;
 }
+.btne{
+    font-size: 18px;
+}
 @media(max-width:1600px){
     #block1 .col-md-9{
         padding: 20px;
@@ -1559,7 +1569,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         font-weight: 800;
     }
     #block1 p{
-        font-size: 18.5px;
+        font-size: 18px;
     }
 }
 @media(max-width:1400px){
@@ -1568,9 +1578,6 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     }
     #block1 h2{
         font-size: 22px;
-    }
-    #block1 p{
-        font-size: 16px;
     }
     #block1 .col-md-9{
         margin-left: 300px;
@@ -1651,9 +1658,6 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     }
     #block1 h2{
         font-size: 24px;
-    }
-    #block1 p{
-        font-size: 13px;
     }
     #block1 .col-md-9 img{
         width: 40px;
