@@ -1487,8 +1487,6 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     border: 1px solid #F45201; 
     color: white; 
     border-radius: 10px;
-    margin-top: 20px;
-    font-size: 18px;
 }
 #block1 .container-fluid .row:first-of-type{
     align-items: center;
@@ -1755,5 +1753,72 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     }
     #block1 .col-md-9{
         margin-bottom: 50px;
+    }
+}
+
+/* Physiotherapy */
+#chunk2m .card{
+    width: 95%;
+    margin: auto;
+    border-color: #FF8800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#chunk3 .row:first-of-type p:first-of-type{
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+}
+#chunk3 .row:first-of-type p:nth-of-type(2){
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+#chunk3 .card{
+    border: none;
+    background: linear-gradient(to bottom right, white, #e9f9fa, #fce6dd);
+    height: 100%;
+    color: #877f7c;
+    width: auto;
+}
+#chunk3 .card:hover{
+    color: black;
+    box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
+    background: linear-gradient(to right, #f4faf2, white);
+}
+#chunk3 .card .row{
+    height: 100%;
+}
+#chunk3 .col-md-6{
+    margin-top: 40px;
+}
+#chunk3 .col-md-6:nth-of-type(2n){
+    padding-left: 20px;
+}
+#chunk3 .col-md-4, #chunk3 .col-md-8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#chunk3 .col-md-8{
+    align-items: flex-start;
+}
+#chunk3 .col-md-8{
+    padding-right: 20px;
+}
+#chunk3 .row:nth-of-type(2) p:first-of-type{
+    font-size: 28px;
+    font-weight: 800;
+    text-align: left;
+}
+#chunk3 .row:nth-of-type(2) p:nth-of-type(2){
+    font-size: 16px;
+    text-align: left;
+    font-weight: normal;
+}
+@media(max-width:768px){
+    #chunk3 .col-md-8, #chunk3 .col-md-4{
+        align-items: center;
     }
 }
