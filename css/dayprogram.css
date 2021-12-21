@@ -1784,17 +1784,21 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 #bgd{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
-    padding-right: 300px;
-    padding-top: 100px;
+    align-items: center;
 }
 #co{
     transform: translateY(-150px);
-    max-height: 190px;
+    max-height: 220px;
 }
 #co img{
     min-width: 50%;
     max-width: 50%;
+}
+#row{
+    transform: translateY(200px);
+}
+#chunk1 .col-md-8{
+    transform: translateX(430px);
 }
 .circ{
     width: 100px;
@@ -1894,6 +1898,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 }
 #chunk3 .col-md-9{
     padding-right: 20px;
+    margin-left: 0%;
 }
 #chunk3 .row:nth-of-type(2) p:first-of-type{
     font-size: 28px;
@@ -1906,18 +1911,10 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     font-weight: normal;
 }
 @media(max-width:1760px){
-    #bgd{
-        padding-right: 200px;
-        padding-top: 40px;
-    }
 }
 @media(max-width:1600px){
     #imge{
         min-width: 120%;
-    }
-    #bgd{
-        padding-right: 300px;
-        padding-top: 60px;
     }
 }
 @media(max-width:1400px){
@@ -1931,10 +1928,6 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 }
 @media(max-width:1200px){
     #bgd{
-        padding-right: 100px;
-        padding-top: 20px;
-    }
-    #bgd{
          font-size: 34px;
         font-weight: 800;
     }
@@ -1947,12 +1940,14 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         height: 50px;
         font-size: 19px;
     }
+    #row{
+        transform: translateY(100px);
+    }
+    #chunk1 .col-md-8{
+        transform: translateX(200px);
+    }
 }
 @media(max-width:992px){
-    #bgd{
-        padding-right: 50px;
-        padding-top: 10px;
-    }
     #chunk1 .d-md-flex p:nth-of-type(2),#chunk1 .d-md-flex p:nth-of-type(3){
         font-size: 15.5px;
     }
@@ -1976,6 +1971,12 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         align-items: center;
         justify-content: center;
         background-color: white;
+    }
+    #row{
+        transform: translateY(50px);
+    }
+    #chunk1 .col-md-8{
+        transform: translateX(100px);
     }
 }
 @media(max-width:840px){
@@ -2018,9 +2019,6 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 @media(max-width:478px){
     #chunk1 .d-md-none .container p{
         font-size: 18px;
-    }
-    #chunk1 .container{
-        margin-top: 30px;
     }
     #chunk2d li{
         font-size: 16px;
