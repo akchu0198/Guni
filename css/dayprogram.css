@@ -2019,6 +2019,11 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     text-align: center;
 }
 }
+@media(max-width:600px){
+    #chunk3 .col-md-9 p:nth-of-type(2){
+        padding: 0% 16px;
+    }
+}
 @media(max-width:580px){
     #chunk1 .container{
         margin-top: 100px;
@@ -2062,13 +2067,8 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         font-weight: 800;
         text-align: center;
     }
-    #chunk3 .row:first-of-type p:nth-of-type(2){
-        font-size: 18px;
-        font-weight: 800;
-        text-align: center;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-top: 20px;
+    #chunk3 .col-md-9 p:nth-of-type(2){
+        font-weight: normal;
     }
 }
 /*Therapeutic Support*/
