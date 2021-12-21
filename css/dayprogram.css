@@ -1928,6 +1928,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     #chunk1 .col-md-8{
         transform: translateX(250px);
     }
+    #row{
+        transform: translateY(150px);
+    }
 }
 @media(max-width:1200px){
     #bgd{
