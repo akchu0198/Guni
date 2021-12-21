@@ -1757,12 +1757,62 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 }
 
 /* Physiotherapy */
+#chunk1 .d-md-flex p:first-of-type span{
+    font-size: 38px;
+    font-weight: 800;
+}
+#chunk1 .d-md-flex p:nth-of-type(2),#chunk1 .d-md-flex p:nth-of-type(3){
+    font-size: 18px;
+}
+#chunk1 button{
+    border: 1px solid #F45201;
+    border-radius: 7px;
+    background-color: #F45201;
+    color: white;
+    width: 261px;
+    height: 55px;
+    font-size: 20px;
+}
+#bgd{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 300px;
+    padding-top: 100px;
+}
+#sq{
+    align-self: flex-start;
+    margin-top: 15rem;
+    margin-left: 25rem;
+    width: 60%;
+}
+.square img{
+    float: left; 
+    margin: 5px;
+}
+#chunk1 .square p{
+    font-size: 18px;
+    font-weight: normal;
+    text-align: justify;
+    color: black;
+    padding-top:200px ;
+}
+#chunk1 .d-md-none p{
+    font-size: 20px;
+}
+#chunk1 .d-md-none p:first-of-type span{
+    font-weight: 800;
+    font-size: 32px;
+}
 #chunk2m .card{
     width: 95%;
     margin: auto;
     border-color: #FF8800;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+#chunk3{
+    margin-bottom: 40px;
 }
 #chunk3 .row:first-of-type p:first-of-type{
     font-size: 34px;
@@ -1785,6 +1835,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     color: black;
     box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     background: linear-gradient(to right, #f4faf2, white);
+}
+#chunk3 .card:hover img{
+    filter: brightness(50%);
 }
 #chunk3 .card .row{
     height: 100%;
@@ -1817,8 +1870,179 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     text-align: left;
     font-weight: normal;
 }
-@media(max-width:768px){
+@media(max-width:1760px){
+    #bgd{
+        padding-right: 200px;
+        padding-top: 40px;
+    }
+    .square img{
+        width: 50%;
+    }
+}
+@media(max-width:1600px){
+    #imge{
+        min-width: 120%;
+    }
+    #bgd{
+        padding-right: 300px;
+        padding-top: 60px;
+    }
+}
+@media(max-width:1490px){
+    #sq{
+        align-self: flex-start;
+        margin-top: 12rem;
+        margin-left: 25rem;
+    }
+}
+@media(max-width:1400px){
+    #sq{
+        align-self: flex-start;
+        margin-top: 10rem;
+        margin-left: 15rem;
+        width: 70%;
+    }
+    #chunk1 .square p{
+        font-size: 18px;
+        font-weight: normal;
+        text-align: justify;
+        color: black;
+        padding-top:100px ;
+    }
+    #chunk1{
+        padding-bottom: 170px;
+    }
+}
+@media(max-width:1300px){
+    #sq{
+        align-self: flex-start;
+        margin-top: 5rem;
+        margin-left: 15rem;
+        width: 70%;
+    }
+}
+@media(max-width:1200px){
+    #bgd{
+        padding-right: 100px;
+        padding-top: 20px;
+    }
+    #bgd{
+         font-size: 34px;
+        font-weight: 800;
+    }
+    #chunk1 .d-md-flex p:nth-of-type(2),#chunk1 .d-md-flex p:nth-of-type(3){
+        font-size: 17px;
+        font-weight: normal;
+    }
+    #chunk1 button{
+        width: 241px;
+        height: 50px;
+        font-size: 19px;
+    }
+    #sq{
+        align-self: flex-start;
+        margin-top: 5rem;
+        margin-left: 5rem;
+        width: 90%;
+    }
+    #chunk1{
+        padding-bottom: 30px;
+    }
+}
+@media(max-width:1100px){
+    #chunk1{
+        padding-bottom: 90px;
+    }
+}
+@media(max-width:992px){
+    #bgd{
+        padding-right: 100px;
+        padding-top: 10px;
+    }
+    #chunk1 .d-md-flex p:nth-of-type(2),#chunk1 .d-md-flex p:nth-of-type(3){
+        font-size: 15.5px;
+    }
+    #chunk1 button{
+        width: 221px;
+        height: 45px;
+        font-size: 18px;
+    }
+    #sq{
+        align-self: flex-start;
+        margin-top: 5rem;
+        margin-left: 5rem;
+        width: 90%;
+    }
+    #chunk1{
+        padding-bottom: 50px;
+    }
+    #chunk1 .square p{
+        font-size: 17px;
+        padding-top: 60px;
+    }
+    #chunk1 .square img{
+        max-width: 40%;
+    }
+}
+@media(max-width:950px){
+    #chunk1{
+        padding-bottom: 70px;
+    }
+}
+@media(max-width:900px){
+    #chunk1{
+        padding-bottom: 140px;
+    }
+}
+@media(max-width:840px){
+    #chunk1{
+        padding-bottom: 190px;
+    }
+    #chunk1 .square p{
+        font-size: 16px;
+        padding-top: 40px;
+    }
+    #chunk1 .square img{
+        max-width: 60%;
+    }
+    #sq{
+        align-self: flex-start;
+        margin-top: 3rem;
+        margin-left: 5rem;
+        width: 90%;
+    }
+}
+@media(max-width:767px){
     #chunk3 .col-md-8, #chunk3 .col-md-4{
         align-items: center;
+    }
+    #chunk1{
+        padding-bottom: 30px;
+    }
+    #chunk1 .d-md-none .container{
+        padding-top: 200px;
+    }
+}
+@media(max-width:580px){
+    #chunk1 .d-md-none .container{
+        padding-top: 100px;
+    }
+}
+@media(max-width:478px){
+    #chunk1 .d-md-none .container{
+        padding-top: 10px;
+    }
+    #chunk1 .d-md-none .container p{
+        font-size: 18px;
+    }
+}
+@media(max-width:400px){
+    #chunk1 .d-md-none .container p{
+        font-size: 16px;
+    }
+    #chunk1 button{
+        width: 205px;
+        height:43px ;
+        font-size: 16px;
     }
 }
