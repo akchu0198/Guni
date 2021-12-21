@@ -1782,7 +1782,11 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 }
 #co{
     transform: translateY(-200px);
-    max-height: 280px;
+    max-height: 190px;
+}
+#co img{
+    min-width: 50%;
+    max-width: 50%;
 }
 .circ{
     width: 100px;
@@ -1795,6 +1799,18 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 }
 .circ img{
     opacity: 0.49;
+}
+#chunk2d{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#chunk2d ul{
+    display: flex;
+    flex-direction: column;
+}
+#chunk2d li{
+    font-size: 20px;
 }
 #chunk3 .card:hover .circ img{
     opacity: 1;
@@ -1811,7 +1827,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     font-weight: normal;
     text-align: justify;
     color: black;
-    padding-top:200px ;
+    padding-top:170px ;
 }
 #chunk1 .d-md-none p{
     font-size: 20px;
@@ -1820,12 +1836,8 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     font-weight: 800;
     font-size: 32px;
 }
-#chunk2m .card{
-    width: 95%;
-    margin: auto;
-    border-color: #FF8800;
-    margin-top: 20px;
-    margin-bottom: 20px;
+#chunk2d p:first-of-type{
+    font-size: 34px;
 }
 #chunk3{
     margin-bottom: 40px;
@@ -1961,7 +1973,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 @media(max-width:840px){
     #chunk1 .square p{
         font-size: 16px;
-        padding-top: 40px;
+        padding-top: 80px;
     }
 }
 @media(max-width:767px){
@@ -1980,10 +1992,17 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     #chunk1 .container{
         margin-top: 250px;
     }
+    #chunk2d p:first-of-type{
+        font-size: 28px;
+        text-align: center;
+    }
 }
 @media(max-width:580px){
     #chunk1 .container{
         margin-top: 100px;
+    }
+    #chunk2d li{
+        font-size: 18px;
     }
 }
 @media(max-width:478px){
@@ -1992,6 +2011,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     }
     #chunk1 .container{
         margin-top: 30px;
+    }
+    #chunk2d li{
+        font-size: 16px;
     }
 }
 @media(max-width:400px){
@@ -2003,23 +2025,42 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         height:43px ;
         font-size: 16px;
     }
+    #chunk2d li{
+        font-size: 14px;
+    }
+    #chunk2d ul{
+        padding-left: 15px;
+    }
+    #chunk2d p:first-of-type{
+        font-size: 24px;
+        text-align: center;
+    }
+    #chunk3 .row:first-of-type p:first-of-type{
+        font-size: 24px;
+        font-weight: 800;
+        text-align: center;
+    }
+    #chunk3 .row:first-of-type p:nth-of-type(2){
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 /*Therapeutic Support*/
-#cont{
-    width: 57%;
-    margin: auto;
-}
 #cont .col-md-4{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 30%;
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
 .images{
     opacity: .47;
 }
-.images:hover{
+#cont .col-md-4:hover .images{
     opacity: 1;
 }
 #cont .col-md-4 p:first-of-type{
