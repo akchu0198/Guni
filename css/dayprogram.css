@@ -2013,6 +2013,11 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
    #chunk1 .container button{
        margin-left:10px ;
    }
+   #chunk3 .row:nth-of-type(2) p:first-of-type{
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+}
 }
 @media(max-width:580px){
     #chunk1 .container{
