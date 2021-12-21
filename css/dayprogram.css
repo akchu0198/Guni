@@ -1843,6 +1843,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 }
 #chunk1 .d-md-none p{
     font-size: 20px;
+   
 }
 #chunk1 .d-md-none p:first-of-type span{
     font-weight: 800;
@@ -2023,6 +2024,12 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     #chunk3 .col-md-9 p:nth-of-type(2){
         padding: 0% 16px;
     }
+    #py{
+        padding-top: 20px;
+    }
+    #io{
+        padding-top: 20px;
+    }
 }
 @media(max-width:580px){
     #chunk1 .container{
@@ -2042,6 +2049,11 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     #chunk2d li{
         font-size: 16px;
     }
+    #io {
+        padding-top: 30px;}
+}
+#py{
+    padding-top: 30px;
 }
 @media(max-width:400px){
     #chunk1 .d-md-none .container p{
