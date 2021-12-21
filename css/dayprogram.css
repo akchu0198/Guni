@@ -453,6 +453,14 @@
         padding: 0%;
 
     }
+    #icon{
+        margin-top: 10px;
+      
+    }
+    #icons{
+        
+        margin-left: 15px;
+    }
 
     #part1 button{
         width: 209px;
@@ -1781,7 +1789,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     padding-top: 100px;
 }
 #co{
-    transform: translateY(-200px);
+    transform: translateY(-150px);
     max-height: 190px;
 }
 #co img{
@@ -1916,9 +1924,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     #chunk1 .square p{
         font-size: 18px;
         font-weight: normal;
-        text-align: justify;
+        text-align: left;
         color: black;
-        padding-top:100px ;
+        padding-top:60px ;
     }
 }
 @media(max-width:1200px){
@@ -2034,18 +2042,20 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         padding-left: 15px;
     }
     #chunk2d p:first-of-type{
-        font-size: 24px;
+        font-size: 18px;
         text-align: center;
     }
     #chunk3 .row:first-of-type p:first-of-type{
-        font-size: 24px;
+        font-size: 28px;
         font-weight: 800;
         text-align: center;
     }
     #chunk3 .row:first-of-type p:nth-of-type(2){
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 800;
         text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
         margin-top: 20px;
     }
 }
