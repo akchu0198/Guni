@@ -2456,9 +2456,6 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     .col-10:nth-of-type(3) .circl{
         padding: 20px;
     }
-    #row3_2{
-        padding: 0px !important;
-    }
   }
   @media(max-width:968px){
     #row_main{
