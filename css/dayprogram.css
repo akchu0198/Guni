@@ -2131,19 +2131,18 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 .overlay p:first-of-type{
     font-size: 28px;
     font-weight: 800;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.5rem;
 }
 .overlay p:nth-of-type(2){
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 16px;
 }
 .overlay .col-9{
     padding: 0%;
 }
 #area2 .overlay img:first-of-type{
-    height: 150px;
-    width: 90px;
-    margin: 0%;padding-top: 15px;padding-left: 8px;
+    height: 162px;
+    width: 114px;
+    margin: 0%;
 }
 #area2 .overlay img:nth-of-type(2){
     height: 162px;
@@ -2179,7 +2178,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 }
 .mid{
     border: 1px solid #D3DD80;
-    border-radius: 45%;
+    border-radius: 35%;
     padding:40px 15px;
     display: flex;
     justify-content: center;
@@ -2189,6 +2188,10 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     padding-bottom: 60px;
     width: 358px;
     min-height: 456px;
+    height: 100%;
+}
+.mid:nth-of-type(2){
+    padding-bottom:0px;
 }
 .circl{
     background-color: #D3DD80;
@@ -2196,6 +2199,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     border: 1px solid #D3DD80;
     padding: 20px;
     margin-bottom: 20px;
+}
+.col-10:nth-of-type(2) .circl{
+    padding: 20px 30px;
 }
 .mid .row{
     margin: 0px 20px;
@@ -2221,7 +2227,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     font-weight: 800;
 }
 .mid .row:nth-of-type(3) p:nth-of-type(1){
-    font-size: 18px;
+    font-size: 16px;
     font-weight: normal;
 }
 #row5{
@@ -2235,6 +2241,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 }
 #row4 .row{
     transform: translateY(-100px);
+}
+#row4{
+    height: 150px;
 }
 @media(max-width:1700px){
     #row2{
@@ -2261,6 +2270,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     }
     #row4 .row{
         transform: translateY(-50px);
+    }
+    #row4{
+        height: auto;
     }
 }
 @media(max-width:1500px){
@@ -2338,7 +2350,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         background-color: #D3DD80;
         border-radius: 50%;
         border: 1px solid #D3DD80;
-        padding: 10px;
+        padding: 20px;
         margin-bottom: 10px;
     }
     #space{
@@ -2380,8 +2392,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         font-size: 17px;
     }
     #area1 p:first-of-type{
-        font-size: 34px;
+        font-size: 30px;
         font-weight: 800;
+        margin-top: 5px;
     }
     .circl img{
         width:45px;
@@ -2440,7 +2453,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         font-weight: 800;
     }
     #areabet2 p:first-of-type{
-        padding-top: 50px;
+        padding-top: 20px;
     }
     .overlay p:first-of-type{
         font-size: 22px;
@@ -2456,13 +2469,13 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 }
 @media(max-width:816px){
     #area1  button{
-        width: 221px;
-        height: 45px;
-        font-size: 16px;
+        width: 201px;
+        height: 40px;
+        font-size: 15px;
         margin-top: 0%;
     }
     #area1 p:nth-of-type(2){
-        font-size: 16px;
+        font-size: 15px;
     }
     #area1 .col-md-8{
         transform: translateX(60px);
@@ -2520,9 +2533,10 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         padding: 40px 15px;
         margin-top: 20px;
         border: 1px solid #55D3DC;
+        height: auto;
     }
     #area2 .col-5:hover{
-        border: 2px solid black;
+        border: 2px solid #707070;
     }
     .mid .row:nth-of-type(3) p:nth-of-type(1){
         font-size: 16px;
@@ -2542,11 +2556,14 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     #area1 button{
         margin-top: 50px;
     }
+    #areabet2 p:first-of-type{
+        padding-top: 0px;
+    }
 }
 @media(max-width:610px){
     #area1 .d-md-none .container{
         padding: 15px;
-        transform: translateY(-100px);
+        transform: translateY(-20px);
     }
 }
 @media(max-width:546px){
@@ -2619,5 +2636,8 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     }
     #area1 button{
         margin-left: 10px;
+    }
+    #row3 .col-5{
+        width: 46%;
     }
 }
