@@ -2936,6 +2936,11 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         font-size: 18px;
     }
 }
+@media(max-width:992px){
+    #seg2 .container{
+        padding: 0%;
+    }
+}
 @media(max-width:875px){
     #seg1 button{
         width: 221px;
@@ -3033,9 +3038,16 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     #seg1 .container{
         transform: translateY(350px);
     }
+    #seg1 .white-border{
+        width: 440px;
+        height: 2px;
+    }
 }
 @media(max-width:562px){
-
+    #seg1 .white-border{
+        width: 220px;
+        height: 2px;
+    }
 }
 @media(max-width:555px){
     #seg1 .container{
@@ -3057,10 +3069,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         font-weight: 800;
         padding-left: 10px;
     }
-    #seg1 .white-border{
-        width: 215px;
-        height: 2px;
-    }
+    
 }
 @media(max-width:400px){
     #seg1 .d-md-none p{
