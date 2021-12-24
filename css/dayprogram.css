@@ -2255,6 +2255,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
   .col-10:nth-of-type(3) .circl{
     padding: 23px;
   }
+  
   @media(max-width:1700px){
     #row2{
         transform: translateY(200px);
@@ -2596,7 +2597,17 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     .col-10:nth-of-type(1) .circl{
         padding: 23px;
     }
-    
+    .white-border {
+        width: 440px;
+        height: 2px;
+        background-color: white;
+        display: block;
+        margin: auto;
+        margin-left:0%;
+    }
+    .col-10:nth-of-type(1) .circl{
+        padding:18px 20px;
+    }
   }
   @media(max-width:676px){
     #area1 .d-md-none .container{
@@ -2612,6 +2623,15 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     #area1 .d-md-none .col-10{
         font-size: 32px;
         font-weight: 800;
+        line-height: 40px;
+    }
+    .white-border {
+        width: 360px;
+        height: 2px;
+        background-color: white;
+        display: block;
+        margin: auto;
+        margin-left:0%;
     }
   }
   @media(max-width:546px){
@@ -2647,6 +2667,16 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     #area1 .d-md-none .container{
         padding: 25px;
         transform: translateY(-80px);
+    }
+  }
+  @media(max-width:505px){
+    .white-border {
+        width: 230px;
+        height: 2px;
+        background-color: white;
+        display: block;
+        margin: auto;
+        margin-left:0%;
     }
   }
   @media(max-width:467px){
@@ -2693,7 +2723,242 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         font-size: 19px;
     }
     .mid{
-        height: 401px;
+        height: 421px;
         padding-top: 20px;
     }
+    .mid p:nth-of-type(2){
+        padding-bottom: 30px;
+    }
+    .col-10:nth-of-type(1) .circl{
+        padding:18px 20px;
+    }
   }
+
+/*Community Participation*/
+#seg1 .container p{
+    font-size: 20px;
+}
+#seg1 .container p:first-of-type{
+    font-size: 38px;
+    font-weight: 800;
+}
+#seg1 button{
+    width: 261px;
+    height: 55px;
+    background-color: #F45201;
+    color: white;
+    border: 1px solid #F45201;
+    border-radius: 7px;
+    font-size: 20px;
+}
+#segrow{
+    transform: translateY(150px);
+}
+#segrow .container .col-xxl-5{
+    transform: translateX(80px);
+}
+#segrow .col-xxl-5{
+    padding-right: 160px;
+}
+#greenrow{
+    background-color: #f5f8df;
+    padding: 35px 20px;
+    border-radius: 0% 15% 15% 0%;
+    max-width: 1234px;
+    margin: auto;
+    margin-top: 72px;
+    padding-top: 50px;
+}
+#greenrow img{
+    margin-bottom: 20px;
+}
+.greentext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 0px;
+}
+#textOF{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#textOF p{
+    font-size: 44px;
+    font-weight: 800;
+    transform: translateY(-20px);
+}
+.bluecirc{
+    text-align: center;
+}
+.bluecirc p{
+    font-size: 28;
+    font-weight: 800;
+    margin-top: 20px;
+    
+}
+.bluecirc img{
+    border-radius: 50%;
+}
+.bluecirc:hover img{
+    border: 2px solid #55D3DC;
+}
+#seg3{
+    padding-bottom: 45px;
+    padding-top: 110px;
+}
+#seg4{
+    background-color: #fff8f2;
+    padding-top: 40px;
+}
+#rowWWO p{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+#rowWWO{
+    margin-bottom: 45px;
+}
+.pinktext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+.pinktext .row:first-of-type{
+    display: flex;
+    justify-content: flex-start;
+    transform: translateY(-15px);
+}
+.pinktext:nth-of-type(2n) .row:first-of-type{
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(-15px);
+}
+.pinktext p:first-of-type{
+    font-size: 30px;
+    font-weight: 800;
+}
+.pinktext p:nth-of-type(2){
+    font-size: 20px;
+}
+.imgsec img{
+    margin: 0%;
+    padding: 0%;
+}
+.imgsec{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0%;
+}
+.greentext:nth-of-type(2) img{
+    padding-bottom: 30px;
+}
+.greentext:nth-of-type(3) img{
+    padding-bottom: 19px;
+}
+.greentext p:nth-of-type(2){
+    font-size: 16px;
+}
+.greentext p:first-of-type{
+    font-size: 28px;
+    font-weight: 800;
+}
+.greentext img{
+    filter: brightness(0%);
+    opacity: 50%;
+}
+.greentext:hover img{
+    filter: brightness(100%);
+    opacity: 100%;
+}
+.greentext:hover{
+    transform: translateY(-100px);
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+@media(max-width:1850px){
+    #segrow{
+        transform: translateY(100px);
+    }
+    #segrow .col-xxl-5{
+        padding-right: 60px;
+    }
+}
+@media(max-width:1600px){
+    #segrow .col-xxl-5{
+        padding-right: 0px;
+    }
+    #segrow{
+        transform: translateY(50px);
+    }
+}
+@media(max-width:1300px){
+    #segrow{
+        transform: translateY(25px);
+    }
+}
+@media(max-width:1150px){
+    #segrow{
+        transform: translateY(15px);
+    }
+    #seg1 .container p{
+        font-size: 18px;
+    }
+    #seg1 .container p:first-of-type{
+        font-size: 34px;
+        font-weight: 800;
+    }
+}
+@media(max-width:1030px){
+    #seg1 .container p{
+        font-size: 16px;
+    }
+    #seg1 .container p:first-of-type{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    #seg1 button{
+        width: 241px;
+        height: 50px;
+        background-color: #F45201;
+        color: white;
+        border: 1px solid #F45201;
+        border-radius: 7px;
+        font-size: 18px;
+    }
+}
+@media(max-width:875px){
+    #seg1 button{
+        width: 221px;
+        height: 46px;
+        background-color: #F45201;
+        color: white;
+        border: 1px solid #F45201;
+        border-radius: 7px;
+        font-size: 17px;
+    }
+    #seg1 .container p{
+        font-size: 14px;
+    }
+    #seg1 .container p:first-of-type{
+        font-size: 28px;
+        font-weight: 800;
+        margin-bottom: 5px;
+    }
+    #segrow .container .col-xxl-5{
+        transform: translateX(40px);
+    }
+}
+@media(max-width:800px){
+    #segrow{
+        transform: translateY(5px);
+    }
+}
