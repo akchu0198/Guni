@@ -3070,6 +3070,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     }
 }
 @media(max-width:767px){
+    .pinktext{
+        margin-bottom: 35px;
+    }
     #seg4 .carousel-control-next{
         margin-right: 0px;
     }
@@ -3188,6 +3191,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 @media(max-width:576px){
     .greentext{
         width: 80%;
+    }
+    .pinktext{
+        margin-bottom: 25px;
     }
 }
 @media(max-width:573px){
