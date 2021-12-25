@@ -3133,6 +3133,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         border: 1px solid #F45201;
         border-radius: 7px;
         font-size: 15px;
+        margin-left: 12px;
     }
     #seg1 .container{
         transform: translateY(800px);
@@ -3142,7 +3143,8 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         height: 2px;
     }
     #seg4 .carousel{
-        height: 1640px;
+        height: auto;
+        padding-bottom: 40px;
     }
     .pinktext p:nth-of-type(2){
         font-size: 16px;
@@ -3212,7 +3214,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         padding-left: 10px;
     }
     #seg4 .carousel{
-        height: 1600px;
+        height:auto;
     }
     .greentext{
         width: 90%;
@@ -3222,6 +3224,11 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     }
     #seg1 .container{
         transform: translateY(250px);
+    }
+    #ic{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
     }
 }
 @media(max-width:400px){
