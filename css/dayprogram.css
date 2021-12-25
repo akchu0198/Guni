@@ -2914,6 +2914,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     color: white;
     text-decoration: none;
 }
+#seg4 .carousel-control-next{
+    margin-right: 80px;
+}
 @media(max-width:1850px){
     /*
     #segrow{
@@ -3061,6 +3064,9 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     }
 }
 @media(max-width:767px){
+    #seg4 .carousel-control-next{
+        margin-right: 0px;
+    }
     .pinktext .col-md-11{
         padding: 0px 1rem;
     }
@@ -3124,6 +3130,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         font-weight: 800;
         line-height: 40px;
         padding: 0%;
+        padding-left: 10px;
     }
     #seg1 button{
         width: 205px;
@@ -3160,10 +3167,6 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         justify-content: center;
         padding: 0%;
     }
-    #seg1  .d-md-none .col-2{
-        display: flex;
-        justify-content:center ;
-    }
     .pinktext{
         margin-top: 15px;
     }
@@ -3179,6 +3182,18 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 @media(max-width:576px){
     .greentext{
         width: 80%;
+    }
+}
+@media(max-width:573px){
+    #ic img{
+        transform: translateY(20px);
+    }
+    #seg1 .d-md-none .col-10{
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;
+        padding: 0%;
+        padding-left: 0px;
     }
 }
 @media(max-width:562px){
