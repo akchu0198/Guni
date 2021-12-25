@@ -2908,7 +2908,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     padding-right:10px ;
 }
 .pinktext .col-md-11{
-    padding: 0px 1.5rem;
+    padding: 0px 0rem;
 }
 #seg1 a{
     color: white;
@@ -3095,7 +3095,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         border-radius: 20px;
         padding: 40px 10px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        min-height: 410px;
+        min-height: 365px;
         width: 70%;
         text-align: center;
         transform: translateY(-200px);
@@ -3135,7 +3135,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         font-size: 15px;
     }
     #seg1 .container{
-        transform: translateY(900px);
+        transform: translateY(800px);
     }
     #seg1 .white-border{
         width: 340px;
@@ -3165,11 +3165,13 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     .pinktext{
         margin-top: 15px;
     }
-    
+    .bluecirc{
+        margin-bottom: 40px;
+    }
 }
 @media(max-width:660px){
     #seg1 .container{
-        transform: translateY(700px);
+        transform: translateY(600px);
     }
 }
 @media(max-width:576px){
@@ -3194,7 +3196,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         display: block;
     }
     #seg1 .container{
-        transform: translateY(430px);
+        transform: translateY(330px);
     }
 }
 @media(max-width:465px){
@@ -3219,7 +3221,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         border-radius: 15% 15% 0% 0%;
     }
     #seg1 .container{
-        transform: translateY(300px);
+        transform: translateY(250px);
     }
 }
 @media(max-width:400px){
@@ -3231,12 +3233,15 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         font-weight: 800;
     }
     #seg1 .container{
-        transform: translateY(200px);
+        transform: translateY(160px);
     }
 }
 @media(max-width:380px){
     #seg1 .white-border{
         width: 200px;
         height: 2px;
+    }
+    #seg1 .container{
+        transform: translateY(200px);
     }
 }
