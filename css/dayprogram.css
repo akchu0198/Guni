@@ -2759,15 +2759,17 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     border-radius: 7px;
     font-size: 20px;
 }
+/*
 #segrow{
     transform: translateY(130px);
 }
 #segrow .container .col-xxl-5{
     transform: translateX(80px);
-}
+}*/
+/*
 #segrow .col-xxl-5{
     padding-right: 160px;
-}
+}*/
 #greenrow{
     background-color: #f5f8df;
     padding: 0px 20px;
@@ -2902,16 +2904,22 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
 .pinktext .col-md-11{
     padding: 0px 1.5rem;
 }
+#seg1 a{
+    color: white;
+    text-decoration: none;
+}
 @media(max-width:1850px){
+    /*
     #segrow{
         transform: translateY(100px);
-    }
+    }*/
     #segrow .col-xxl-5{
         padding-right: 60px;
     }
+    /*
     #segrow .container .col-xxl-5{
         transform: translateX(60px);
-    }
+    }*/
     #greenrow{
         max-width: 1004px;
     }
@@ -2920,9 +2928,10 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     #segrow .col-xxl-5{
         padding-right: 0px;
     }
+    /*
     #segrow{
         transform: translateY(50px);
-    }
+    }*/
     #greenrow{
         max-width: 904px;
     }
@@ -2931,17 +2940,19 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     #seg4 .carousel{
         height: 1000px;
     }
+    /*
     #segrow .container .col-xxl-5{
         transform: translateX(0px);
-    }
+    }*/
     #greenrow{
         max-width: 804px;
     }
 }
 @media(max-width:1300px){
+    /*
     #segrow{
         transform: translateY(55px);
-    }
+    }*/
     #seg1 .container p:first-of-type{
         font-size: 30px;
         font-weight: 800;
@@ -2964,9 +2975,10 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     }
 }
 @media(max-width:1150px){
+    /*
     #segrow{
         transform: translateY(15px);
-    }
+    }*/
     #seg1 .container p{
         font-size: 18px;
     }
@@ -3026,18 +3038,23 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
         font-weight: 800;
         margin-bottom: 5px;
     }
+    /*
     #segrow .container .col-xxl-5{
         transform: translateX(40px);
-    }
+    }*/
 }
 @media(max-width:800px){
+    /*
     #segrow{
         transform: translateY(5px);
-    }
+    }*/
     #seg1 button{
         width: 201px;
         height: 43px;
         font-size: 15px;
+    }
+    #segrow{
+        transform: translateY(-40px);
     }
 }
 @media(max-width:767px){
@@ -3145,6 +3162,7 @@ box-shadow: -12px 10px 23px -8px rgba(128,128,128,0.71);
     .pinktext{
         margin-top: 15px;
     }
+    
 }
 @media(max-width:660px){
     #seg1 .container{
